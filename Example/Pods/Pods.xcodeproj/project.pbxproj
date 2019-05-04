@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CB3F065732C4D6637D6F5C2090FB114 /* Pods-PaintCodeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B571A90CCA6114CE232B1D8E73C5CBA /* Pods-PaintCodeKit_Example-dummy.m */; };
+		224AEB880D40244E0A383E08E912C673 /* PaintCodeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CA534AB64CBB5391FBB0488B531942 /* PaintCodeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		374C40CDD13E7E711013EB8E57333B8B /* Pods-PaintCodeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 092BFE4C21F814D545EC99737460BB3C /* Pods-PaintCodeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49B0E2977BC19BECEC17A315318A966D /* Pods-PaintCodeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9CDF801ED6571213294FD6031CB2EA /* Pods-PaintCodeKit_Tests-dummy.m */; };
+		6A73D25DEC9934582A6CEB414E92F1F2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF2BF3D054F0133C5106F60C5E543D3 /* ReplaceMe.swift */; };
+		9B7B57551E369434A66777D130204323 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A13E870E29087B4D96F08289AC77F0AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A533046207572587B0292B08785150C1 /* PaintCodeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C9ADC837C6C2046463265949836FD4 /* PaintCodeKit-dummy.m */; };
+		CE408FDAAB921C57192A4EDB87F90345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FBDCEE6A664A0291CAE68E227AD07981 /* Pods-PaintCodeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5B95D6E7C26C52A418BEFABB7DBFED /* Pods-PaintCodeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B74C0F7DA65309AABE2D31C581CCC69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D8E396E818AAD60FE445588ADD4336B;
+			remoteInfo = "Pods-PaintCodeKit_Example";
+		};
+		B7221EF3B50FA8B5506559C179D49CF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69FBA3C790D69769F5F90CD35824C75E;
+			remoteInfo = PaintCodeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092BFE4C21F814D545EC99737460BB3C /* Pods-PaintCodeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaintCodeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0B571A90CCA6114CE232B1D8E73C5CBA /* Pods-PaintCodeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaintCodeKit_Example-dummy.m"; sourceTree = "<group>"; };
+		11C9ADC837C6C2046463265949836FD4 /* PaintCodeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PaintCodeKit-dummy.m"; sourceTree = "<group>"; };
+		13BCE274032E8FE06F21DDDD2DC51FA8 /* PaintCodeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaintCodeKit.xcconfig; sourceTree = "<group>"; };
+		16FE844B4E8591C74404747C5E009C3C /* Pods_PaintCodeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaintCodeKit_Tests.framework; path = "Pods-PaintCodeKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		275E355CCC5E70BE86B05F1A1C0BDCBA /* PaintCodeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PaintCodeKit.framework; path = PaintCodeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7A53F49190282A4EEA58F7A6E9D2B9 /* Pods-PaintCodeKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaintCodeKit_Example-Info.plist"; sourceTree = "<group>"; };
+		3AF2BF3D054F0133C5106F60C5E543D3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PaintCodeKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		3D5B95D6E7C26C52A418BEFABB7DBFED /* Pods-PaintCodeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaintCodeKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		4B7AB740AD5FFF86CB4D4781DA1B2CE6 /* Pods-PaintCodeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaintCodeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E90D44054950DC4A61EB509F32BEC8E /* Pods-PaintCodeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaintCodeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F5335981BF22E46175D311DD069F5C0 /* PaintCodeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaintCodeKit-prefix.pch"; sourceTree = "<group>"; };
+		589107ED84BD670B2D28DA5EA44358B7 /* PaintCodeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PaintCodeKit.modulemap; sourceTree = "<group>"; };
+		6426EC7598F706886468AEC619C544C7 /* Pods-PaintCodeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaintCodeKit_Example.modulemap"; sourceTree = "<group>"; };
+		7E48CA5EF2C21D827F75D303071E4BBF /* Pods-PaintCodeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaintCodeKit_Tests.modulemap"; sourceTree = "<group>"; };
+		82A9C64197B10ED75AC6DE353A87C7A0 /* Pods_PaintCodeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaintCodeKit_Example.framework; path = "Pods-PaintCodeKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A98E9AF32BD37F1B40CD924AC9AC804 /* Pods-PaintCodeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaintCodeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		951D1B53B6DAC740938F1CD068CED7B3 /* Pods-PaintCodeKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaintCodeKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		984368E994A37F7358C39020104C3E55 /* PaintCodeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PaintCodeKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A44D566D39744C403B73387D84DB5022 /* PaintCodeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PaintCodeKit-Info.plist"; sourceTree = "<group>"; };
+		A913701DB24683C1A5E560F0E9CDFAE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B6D51B0C8BC814090476EB75B7022621 /* Pods-PaintCodeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaintCodeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF533BD5CAD54912DBA2CE74B73852FC /* Pods-PaintCodeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaintCodeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4A6A670653B2566CF8AA76BD6E76DEF /* Pods-PaintCodeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaintCodeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C4CA534AB64CBB5391FBB0488B531942 /* PaintCodeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaintCodeKit-umbrella.h"; sourceTree = "<group>"; };
+		C6210CD950331ACB55C05681EE37DEDB /* Pods-PaintCodeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaintCodeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE9CDF801ED6571213294FD6031CB2EA /* Pods-PaintCodeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaintCodeKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		E0D49CEFA7B649E772A8C7AA70AD4C3D /* Pods-PaintCodeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaintCodeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F32E31EF8C4086EB2B8951EBEE74B178 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FB39805F9AE7E974E015F34E73B40636 /* Pods-PaintCodeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaintCodeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		435882EBC251F753D75E183C14022213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE408FDAAB921C57192A4EDB87F90345 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595BFA45B683454C864E85CAC52DB30C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13E870E29087B4D96F08289AC77F0AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EA30CDFA2E453028B7CC3F333D2336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7B57551E369434A66777D130204323 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F166C23395BA63121519D5A71CE6831 /* PaintCodeKit */ = {
+			isa = PBXGroup;
+			children = (
+				3AF2BF3D054F0133C5106F60C5E543D3 /* ReplaceMe.swift */,
+				C5784EAB83394379CC0CA23D5EADE573 /* Pod */,
+				E7CE409B39056AA14DA3F3D2D522A0BD /* Support Files */,
+			);
+			name = PaintCodeKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		514C52FD5CE3C512B7DA3B42BDF76343 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F166C23395BA63121519D5A71CE6831 /* PaintCodeKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		893860FC52F7CF9CFBF95E0A94E10B9D /* Pods-PaintCodeKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E48CA5EF2C21D827F75D303071E4BBF /* Pods-PaintCodeKit_Tests.modulemap */,
+				B6D51B0C8BC814090476EB75B7022621 /* Pods-PaintCodeKit_Tests-acknowledgements.markdown */,
+				4E90D44054950DC4A61EB509F32BEC8E /* Pods-PaintCodeKit_Tests-acknowledgements.plist */,
+				CE9CDF801ED6571213294FD6031CB2EA /* Pods-PaintCodeKit_Tests-dummy.m */,
+				951D1B53B6DAC740938F1CD068CED7B3 /* Pods-PaintCodeKit_Tests-Info.plist */,
+				092BFE4C21F814D545EC99737460BB3C /* Pods-PaintCodeKit_Tests-umbrella.h */,
+				4B7AB740AD5FFF86CB4D4781DA1B2CE6 /* Pods-PaintCodeKit_Tests.debug.xcconfig */,
+				C6210CD950331ACB55C05681EE37DEDB /* Pods-PaintCodeKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-PaintCodeKit_Tests";
+			path = "Target Support Files/Pods-PaintCodeKit_Tests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B3F8856E71AD83DE714F5BD6C796A1BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C81BB89C7F474D642A95D34CCD7EA071 /* Pods-PaintCodeKit_Example */,
+				893860FC52F7CF9CFBF95E0A94E10B9D /* Pods-PaintCodeKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C5784EAB83394379CC0CA23D5EADE573 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A913701DB24683C1A5E560F0E9CDFAE2 /* LICENSE */,
+				984368E994A37F7358C39020104C3E55 /* PaintCodeKit.podspec */,
+				F32E31EF8C4086EB2B8951EBEE74B178 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C81BB89C7F474D642A95D34CCD7EA071 /* Pods-PaintCodeKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6426EC7598F706886468AEC619C544C7 /* Pods-PaintCodeKit_Example.modulemap */,
+				8A98E9AF32BD37F1B40CD924AC9AC804 /* Pods-PaintCodeKit_Example-acknowledgements.markdown */,
+				BF533BD5CAD54912DBA2CE74B73852FC /* Pods-PaintCodeKit_Example-acknowledgements.plist */,
+				0B571A90CCA6114CE232B1D8E73C5CBA /* Pods-PaintCodeKit_Example-dummy.m */,
+				E0D49CEFA7B649E772A8C7AA70AD4C3D /* Pods-PaintCodeKit_Example-frameworks.sh */,
+				3A7A53F49190282A4EEA58F7A6E9D2B9 /* Pods-PaintCodeKit_Example-Info.plist */,
+				3D5B95D6E7C26C52A418BEFABB7DBFED /* Pods-PaintCodeKit_Example-umbrella.h */,
+				FB39805F9AE7E974E015F34E73B40636 /* Pods-PaintCodeKit_Example.debug.xcconfig */,
+				C4A6A670653B2566CF8AA76BD6E76DEF /* Pods-PaintCodeKit_Example.release.xcconfig */,
+			);
+			name = "Pods-PaintCodeKit_Example";
+			path = "Target Support Files/Pods-PaintCodeKit_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				514C52FD5CE3C512B7DA3B42BDF76343 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E628FE4750FBD6F0E8C88C2CA9DE9B11 /* Products */,
+				B3F8856E71AD83DE714F5BD6C796A1BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E628FE4750FBD6F0E8C88C2CA9DE9B11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				275E355CCC5E70BE86B05F1A1C0BDCBA /* PaintCodeKit.framework */,
+				82A9C64197B10ED75AC6DE353A87C7A0 /* Pods_PaintCodeKit_Example.framework */,
+				16FE844B4E8591C74404747C5E009C3C /* Pods_PaintCodeKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7CE409B39056AA14DA3F3D2D522A0BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				589107ED84BD670B2D28DA5EA44358B7 /* PaintCodeKit.modulemap */,
+				13BCE274032E8FE06F21DDDD2DC51FA8 /* PaintCodeKit.xcconfig */,
+				11C9ADC837C6C2046463265949836FD4 /* PaintCodeKit-dummy.m */,
+				A44D566D39744C403B73387D84DB5022 /* PaintCodeKit-Info.plist */,
+				4F5335981BF22E46175D311DD069F5C0 /* PaintCodeKit-prefix.pch */,
+				C4CA534AB64CBB5391FBB0488B531942 /* PaintCodeKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PaintCodeKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		054B585CAD0F52935E5A892EBC27BA92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDCEE6A664A0291CAE68E227AD07981 /* Pods-PaintCodeKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122F0DADC0E5F6478DAA3F87A358A38E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374C40CDD13E7E711013EB8E57333B8B /* Pods-PaintCodeKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA227816C5EE181F953EE52E0EAB2FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224AEB880D40244E0A383E08E912C673 /* PaintCodeKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DDFB31A2A5D670031F73DBAA69C0767 /* Pods-PaintCodeKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB055C7A1FFE9003C1A8CA501EB9EBFC /* Build configuration list for PBXNativeTarget "Pods-PaintCodeKit_Tests" */;
+			buildPhases = (
+				122F0DADC0E5F6478DAA3F87A358A38E /* Headers */,
+				25F438AB4805C924679596D4C28224E5 /* Sources */,
+				595BFA45B683454C864E85CAC52DB30C /* Frameworks */,
+				7926400B673E6D6049916121CF5513F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD2CA5BC0366CCCBD538E9020D7F289 /* PBXTargetDependency */,
+			);
+			name = "Pods-PaintCodeKit_Tests";
+			productName = "Pods-PaintCodeKit_Tests";
+			productReference = 16FE844B4E8591C74404747C5E009C3C /* Pods_PaintCodeKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D8E396E818AAD60FE445588ADD4336B /* Pods-PaintCodeKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D81028F443C375C8FDACB590C0673B /* Build configuration list for PBXNativeTarget "Pods-PaintCodeKit_Example" */;
+			buildPhases = (
+				054B585CAD0F52935E5A892EBC27BA92 /* Headers */,
+				A087114AF700B2D95237FD860E3D37EC /* Sources */,
+				435882EBC251F753D75E183C14022213 /* Frameworks */,
+				5B8734F42C3D48D55EF0E0C49D093256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91A1F7929712A45145F717A06232984 /* PBXTargetDependency */,
+			);
+			name = "Pods-PaintCodeKit_Example";
+			productName = "Pods-PaintCodeKit_Example";
+			productReference = 82A9C64197B10ED75AC6DE353A87C7A0 /* Pods_PaintCodeKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69FBA3C790D69769F5F90CD35824C75E /* PaintCodeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAF2B198CFE21E43987A81CD9D5662E /* Build configuration list for PBXNativeTarget "PaintCodeKit" */;
+			buildPhases = (
+				FCA227816C5EE181F953EE52E0EAB2FE /* Headers */,
+				39F41FD8C3A6E082EE033BEED6B97982 /* Sources */,
+				75EA30CDFA2E453028B7CC3F333D2336 /* Frameworks */,
+				422BB7301265F65A9D21B03D46612B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintCodeKit;
+			productName = PaintCodeKit;
+			productReference = 275E355CCC5E70BE86B05F1A1C0BDCBA /* PaintCodeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E628FE4750FBD6F0E8C88C2CA9DE9B11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69FBA3C790D69769F5F90CD35824C75E /* PaintCodeKit */,
+				2D8E396E818AAD60FE445588ADD4336B /* Pods-PaintCodeKit_Example */,
+				1DDFB31A2A5D670031F73DBAA69C0767 /* Pods-PaintCodeKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		422BB7301265F65A9D21B03D46612B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8734F42C3D48D55EF0E0C49D093256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7926400B673E6D6049916121CF5513F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F438AB4805C924679596D4C28224E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B0E2977BC19BECEC17A315318A966D /* Pods-PaintCodeKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F41FD8C3A6E082EE033BEED6B97982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A533046207572587B0292B08785150C1 /* PaintCodeKit-dummy.m in Sources */,
+				6A73D25DEC9934582A6CEB414E92F1F2 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A087114AF700B2D95237FD860E3D37EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB3F065732C4D6637D6F5C2090FB114 /* Pods-PaintCodeKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DD2CA5BC0366CCCBD538E9020D7F289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PaintCodeKit_Example";
+			target = 2D8E396E818AAD60FE445588ADD4336B /* Pods-PaintCodeKit_Example */;
+			targetProxy = 4B74C0F7DA65309AABE2D31C581CCC69 /* PBXContainerItemProxy */;
+		};
+		A91A1F7929712A45145F717A06232984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PaintCodeKit;
+			target = 69FBA3C790D69769F5F90CD35824C75E /* PaintCodeKit */;
+			targetProxy = B7221EF3B50FA8B5506559C179D49CF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D09B3B771884A1EDF8C20547E1FED15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB39805F9AE7E974E015F34E73B40636 /* Pods-PaintCodeKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaintCodeKit_Example/Pods-PaintCodeKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaintCodeKit_Example/Pods-PaintCodeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1385656AC19665B82050274E79C3FCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A6A670653B2566CF8AA76BD6E76DEF /* Pods-PaintCodeKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaintCodeKit_Example/Pods-PaintCodeKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaintCodeKit_Example/Pods-PaintCodeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4B38DCA8EE68DC9EEFA4CDA3FD04EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BCE274032E8FE06F21DDDD2DC51FA8 /* PaintCodeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PaintCodeKit/PaintCodeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PaintCodeKit/PaintCodeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PaintCodeKit/PaintCodeKit.modulemap";
+				PRODUCT_MODULE_NAME = PaintCodeKit;
+				PRODUCT_NAME = PaintCodeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A64948A4ED9F62CE3BD3D5618CDE29B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7AB740AD5FFF86CB4D4781DA1B2CE6 /* Pods-PaintCodeKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaintCodeKit_Tests/Pods-PaintCodeKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaintCodeKit_Tests/Pods-PaintCodeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA7E6C31E05CC750523192AEEAB0CC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BCE274032E8FE06F21DDDD2DC51FA8 /* PaintCodeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PaintCodeKit/PaintCodeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PaintCodeKit/PaintCodeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PaintCodeKit/PaintCodeKit.modulemap";
+				PRODUCT_MODULE_NAME = PaintCodeKit;
+				PRODUCT_NAME = PaintCodeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D127A12D4660556AABBE69172B0FD3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6210CD950331ACB55C05681EE37DEDB /* Pods-PaintCodeKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaintCodeKit_Tests/Pods-PaintCodeKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaintCodeKit_Tests/Pods-PaintCodeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35D81028F443C375C8FDACB590C0673B /* Build configuration list for PBXNativeTarget "Pods-PaintCodeKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D09B3B771884A1EDF8C20547E1FED15 /* Debug */,
+				1385656AC19665B82050274E79C3FCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB055C7A1FFE9003C1A8CA501EB9EBFC /* Build configuration list for PBXNativeTarget "Pods-PaintCodeKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64948A4ED9F62CE3BD3D5618CDE29B6 /* Debug */,
+				D127A12D4660556AABBE69172B0FD3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAF2B198CFE21E43987A81CD9D5662E /* Build configuration list for PBXNativeTarget "PaintCodeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B38DCA8EE68DC9EEFA4CDA3FD04EED /* Debug */,
+				CA7E6C31E05CC750523192AEEAB0CC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

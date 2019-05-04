@@ -1,0 +1,22 @@
+{
+  "name": "PaintCodeKit",
+  "version": "0.1.0",
+  "summary": "A short description of PaintCodeKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/alberdev/PaintCodeKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alberdev": "albertokr@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/alberdev/PaintCodeKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PaintCodeKit/Classes/**/*"
+}

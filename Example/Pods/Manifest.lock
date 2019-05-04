@@ -1,0 +1,16 @@
+PODS:
+  - PaintCodeKit (0.1.0)
+
+DEPENDENCIES:
+  - PaintCodeKit (from `../`)
+
+EXTERNAL SOURCES:
+  PaintCodeKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PaintCodeKit: 0908e1f70415d41dd84733cfce8f08f83d88b8a5
+
+PODFILE CHECKSUM: 1e4841233b0d852c6a9f76296cce971203971d8d
+
+COCOAPODS: 1.7.0.beta.3

@@ -1,0 +1,6 @@
+framework module Pods_PaintCodeKit_Example {
+  umbrella header "Pods-PaintCodeKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module PaintCodeKit {
+  umbrella header "PaintCodeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

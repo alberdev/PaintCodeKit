@@ -7,36 +7,45 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PaintCodeKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of PaintCodeKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/alberdev/PaintCodeKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'alberdev' => 'albertokr@gmail.com' }
-  s.source           = { :git => 'https://github.com/alberdev/PaintCodeKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'PaintCodeKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'PaintCodeKit' => ['PaintCodeKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.platform = :ios
+  s.ios.deployment_target = '10.0'
+  s.name              = 'PaintCodeKit'
+  s.summary           = 'PaintCode turn your images into Swift code, PaintCodeKit helps you to add them in your views!'
+  s.description       = 'PaintCodeKit manage your converted images in PaintCode. You will be able to use your images directly in the views using extensions with correct sizes. Use it to maintain your code clean! '
+  s.version           = '0.1.1'
+  
+  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.license           = { :type => 'MIT', :file => 'LICENSE' }
+  
+  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.author            = { 'Alberto Aznar' => 'info@alberdev.com' }
+  s.homepage          = 'https://github.com/alberdev/PaintCodeKit'
+  s.social_media_url  = 'https://twitter.com/alberdev'
+  
+  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.source            = { :git => 'https://github.com/alberdev/PaintCodeKit.git', :tag => s.version.to_s }
+  
+  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.framework         = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.source_files      = 'PaintCodeKit/**/*'
+  
+  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  # s.resources         = 'PaintCodeKit/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
+  
+  # ――― Swift Version ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.swift_version     = '5.0'
+  
 end

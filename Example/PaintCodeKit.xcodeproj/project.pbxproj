@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4DB418C648992B4FE75A0A82 /* PaintCodeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PaintCodeKit.podspec; path = ../PaintCodeKit.podspec; sourceTree = "<group>"; };
+		4DB418C648992B4FE75A0A82 /* PaintCodeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PaintCodeKit.podspec; path = ../PaintCodeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D483EC7F8791D43A84A9C8F /* Pods_PaintCodeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaintCodeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* PaintCodeKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintCodeKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		66FFFA9588FA9AC53F34AE17 /* Pods-PaintCodeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaintCodeKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-PaintCodeKit_Example/Pods-PaintCodeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6B7A649F8C55FB0640551C9C /* Pods-PaintCodeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaintCodeKit_Example.release.xcconfig"; path = "Target Support Files/Pods-PaintCodeKit_Example/Pods-PaintCodeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		940FD9DB0D32756F0B4A0EB7 /* Pods-PaintCodeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaintCodeKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PaintCodeKit_Tests/Pods-PaintCodeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		94390C332595F2A24E58A65B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B98A278C1E3AAAA30F9572B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		94390C332595F2A24E58A65B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B98A278C1E3AAAA30F9572B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E0A1E69A051818A8EC1E1B45 /* Pods_PaintCodeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaintCodeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17FF64018FAE99F98FE5EDC /* Pods-PaintCodeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaintCodeKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-PaintCodeKit_Tests/Pods-PaintCodeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				940FD9DB0D32756F0B4A0EB7 /* Pods-PaintCodeKit_Tests.debug.xcconfig */,
 				F17FF64018FAE99F98FE5EDC /* Pods-PaintCodeKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
