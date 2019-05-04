@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PaintCodeKit_Example' do
+  pod 'PaintCodeKit', :path => '../'
+
+  target 'PaintCodeKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
