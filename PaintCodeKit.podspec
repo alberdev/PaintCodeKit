@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.name              = 'PaintCodeKit'
   s.summary           = 'PaintCode turn your images into Swift code, PaintCodeKit helps you to add them in your views!'
   s.description       = 'PaintCodeKit manage your converted images in PaintCode. You will be able to use your images directly in the views using extensions with correct sizes. Use it to maintain your code clean! '
-  s.version           = '0.1.1'
+  s.version           = '1.0.0'
   
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
