@@ -142,6 +142,11 @@ PaintCodeManager.shared.defaultCached = true
 
 Also you can make use of anyone of the included images in `PaintCodeKit`.
 
+```swift
+/// Example
+PaintCodeImage.user
+```
+
 | PaintCodeImage | Preview 
 | ------- | -------
 | `.user`  | ![](Images/Icons/user.png)
