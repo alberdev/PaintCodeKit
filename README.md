@@ -23,7 +23,7 @@
 
 ## Description
 
-`PaintCodeKit` manage your converted images in PaintCode. You will be able to use your images directly in the views using extensions with correct sizes. Use it to maintain your code clean!
+`PaintCodeKit` manage your converted images in [PaintCode](https://www.paintcodeapp.com). You will be able to use your images directly in the views using extensions with correct sizes. Use it to maintain your code clean!
 
 - [x] Import your code from PaintCodeKit
 - [x] Customizable images
@@ -83,7 +83,7 @@ enum Icon: PaintCodeDraw {
 }
 ```
 
-As you can see above, `draw` method, will draw your custom image from PaintCode code. So you must extend `PaintCodeImages` and paste PaintCode code generated draw methods:
+As you can see above, `draw` method, will draw your custom image from PaintCode code. So you must extend `PaintCodeImages` and paste [PaintCode](https://www.paintcodeapp.com) code generated draw methods:
 
 ```swift
 extension PaintCodeImages {
