@@ -149,7 +149,7 @@ PaintCodeImage.user
 
 | PaintCodeImage | Preview 
 | ------- | -------
-| `.user`  | ![](Images/Icons/user.png =25x)
+| `.user`  | ![](Images/Icons/user.png  | width=25)
 
 ## Author
 
