@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         // Fill image views
         userImageView.draw(PaintCodeImage.user)
         shareImageView.draw(Icon.shareApp)
-        bellImageView.draw(Icon.bell)
+        bellImageView.draw(Icon.bell, size: CGSize(width: 30, height: 30), color: .black, cached: true)
         
         // Fill button
         let image = PaintCodeManager.image(PaintCodeImage.user)

@@ -59,7 +59,11 @@ In the example you can see how to include you own images in `UIImageViews` and h
 Use `PaintCodeImage` enum to fill with images preloaded in this pod.
 
 ```swift
+// This will get image view frame to get default image size
 imageView.draw(PaintCodeImage.user)
+
+// Extended mode
+imageView.draw(PaintCodeImage.user, size: CGSize(width: 10, height: 10), color: .white, cached: true)
 ```
 
 In other case, make your own enum type with  `PaintCodeDraw` protocol implementing `draw` method. Follow next example:
