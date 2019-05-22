@@ -59,7 +59,7 @@ In the example you can see how to include you own images in `UIImageViews` and h
 Use `PaintCodeImage` enum to fill with images preloaded in this pod.
 
 ```swift
-// This will get image view frame to get default image size
+// This will get imageView frame to get default image size
 imageView.draw(PaintCodeImage.user)
 
 // Extended mode
@@ -142,11 +142,9 @@ PaintCodeManager.shared.defaultCached = true
 
 Also you can make use of anyone of the included images in `PaintCodeKit`.
 
-```swift
-/// User image
-PaintCodeImage.user
-```
-
+| PaintCodeImage | Preview 
+| ------- | -------
+| `.user`  | ![](Images/Icons/user.png)
 
 ## Author
 
