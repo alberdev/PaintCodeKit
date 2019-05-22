@@ -148,7 +148,7 @@ PaintCodeImage.user
 ```
 
 | PaintCodeImage | Preview 
-| ------- | -------
+| ------- | :-------:
 | `.user`  | <img src="Images/Icons/user.png" width="30" height="30">
 
 ## Author
