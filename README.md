@@ -2,10 +2,10 @@
 
 # PaintCodeKit
 
-[![Version](https://img.shields.io/cocoapods/v/PaintCodeKit.svg?style=flat&colorB=008B60)](https://cocoapods.org/pods/PaintCodeKit)
+[![Version](https://img.shields.io/cocoapods/v/PaintCodeKit.svg?style=flat&colorB=3693DB)](https://cocoapods.org/pods/PaintCodeKit)
 [![License](https://img.shields.io/cocoapods/l/PaintCodeKit.svg?style=flat)](https://cocoapods.org/pods/PaintCodeKit)
 [![Platform](https://img.shields.io/cocoapods/p/PaintCodeKit.svg?style=flat)](https://cocoapods.org/pods/PaintCodeKit)
-![Swift](https://img.shields.io/badge/%20in-swift%205.0-orange.svg?style=flat&colorB=008B60)
+![Swift](https://img.shields.io/badge/%20in-swift%205.0-orange.svg?style=flat&colorB=3693DB)
 
 ## Table of Contents
 
@@ -79,7 +79,7 @@ enum Icon: PaintCodeDraw {
 }
 ```
 
-As you can see above, `draw` method, will draw your custom image from PaintCode code. So you must extend `PaintCodeImages` and paste PaintCode code generated draw class:
+As you can see above, `draw` method, will draw your custom image from PaintCode code. So you must extend `PaintCodeImages` and paste PaintCode code generated draw methods:
 
 ```swift
 extension PaintCodeImages {
@@ -136,7 +136,7 @@ PaintCodeManager.shared.defaultCached = true
 
 ## Extra
 
-Also you can make use of anyone of the included images in `PaintCodeImage` enum
+Also you can make use of anyone of the included images in `PaintCodeKit`.
 
 ```swift
 /// User image
