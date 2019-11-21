@@ -5,7 +5,7 @@
 
 <p align="center">
    <a href="https://cocoapods.org/pods/PaintCodeKit">
-      <img src="https://img.shields.io/cocoapods/v/PaintCodeKit.svg?style=flat&colorB=fbb03b" alt="Version">
+      <img src="https://img.shields.io/cocoapods/v/PaintCodeKit.svg?style=flat&colorB=2365c4" alt="Version">
    </a>
    <!--
    <a href="https://github.com/Carthage/Carthage">
@@ -16,10 +16,10 @@
       <img src="https://img.shields.io/cocoapods/l/PaintCodeKit.svg?style=flat)" alt="License">
    </a>
    <a href="https://developer.apple.com/swift/">
-      <img src="https://img.shields.io/badge/Swift-5.0-blue.svg?style=flat&colorB=fbb03b" alt="Swift 5.0">
+      <img src="https://img.shields.io/badge/Swift-5.0-blue.svg?style=flat&colorB=2365c4" alt="Swift 5.0">
    </a>
    <a href="https://cocoapods.org/pods/PaintCodeKit">
-      <img src="https://img.shields.io/cocoapods/p/PaintCodeKit.svg?style=flat&colorB=fbb03b" alt="Platform">
+      <img src="https://img.shields.io/cocoapods/p/PaintCodeKit.svg?style=flat&colorB=2365c4" alt="Platform">
    </a>
    <!--
    <a href="https://alberdev.github.io/PaintCodeKit">
@@ -27,7 +27,7 @@
    </a>
    -->
    <a href="https://twitter.com/alberdev/">
-      <img src="https://img.shields.io/badge/Twitter-@alberdev-blue.svg?style=flat&colorB=fbb03b" alt="Twitter">
+      <img src="https://img.shields.io/badge/Twitter-@alberdev-blue.svg?style=flat&colorB=2365c4" alt="Twitter">
    </a>
    
 </p>
