@@ -1,16 +1,54 @@
-![PaintCodeKit logo](https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/header_PaintCodeKit.png)
+
+<p align="center">
+   <img width="500" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/header_PaintCodeKit.png" alt="PaintCodeKit  Logo">
+</p>
+
+<p align="center">
+   <a href="https://cocoapods.org/pods/PaintCodeKit">
+      <img src="https://img.shields.io/cocoapods/v/PaintCodeKit.svg?style=flat&colorB=fbb03b" alt="Version">
+   </a>
+   <!--
+   <a href="https://github.com/Carthage/Carthage">
+      <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage Compatible">
+   </a>
+   -->
+   <a href="https://cocoapods.org/pods/PaintCodeKit">
+      <img src="https://img.shields.io/cocoapods/l/PaintCodeKit.svg?style=flat)" alt="License">
+   </a>
+   <a href="https://developer.apple.com/swift/">
+      <img src="https://img.shields.io/badge/Swift-5.0-blue.svg?style=flat&colorB=fbb03b" alt="Swift 5.0">
+   </a>
+   <a href="https://cocoapods.org/pods/PaintCodeKit">
+      <img src="https://img.shields.io/cocoapods/p/PaintCodeKit.svg?style=flat&colorB=fbb03b" alt="Platform">
+   </a>
+   <!--
+   <a href="https://alberdev.github.io/PaintCodeKit">
+      <img src="https://github.com/alberdev/PaintCodeKit/blob/gh-pages/badge.svg" alt="Documentation">
+   </a>
+   -->
+   <a href="https://twitter.com/alberdev/">
+      <img src="https://img.shields.io/badge/Twitter-@alberdev-blue.svg?style=flat&colorB=fbb03b" alt="Twitter">
+   </a>
+   
+</p>
+
+<br/>
+
+<p align="center">
+   <b>PaintCodeKit</b> manage your converted images in <a href="https://www.paintcodeapp.com" target="_blank">PaintCode</a>. You will be able to use your images directly in the views using extensions with correct sizes. Use it to maintain your code clean!
+</p>
+
 
 # PaintCodeKit
 
-[![Version](https://img.shields.io/cocoapods/v/PaintCodeKit.svg?style=flat&colorB=3693DB)](https://cocoapods.org/pods/PaintCodeKit)
-[![License](https://img.shields.io/cocoapods/l/PaintCodeKit.svg?style=flat)](https://cocoapods.org/pods/PaintCodeKit)
-[![Platform](https://img.shields.io/cocoapods/p/PaintCodeKit.svg?style=flat)](https://cocoapods.org/pods/PaintCodeKit)
-![Swift](https://img.shields.io/badge/%20in-swift%205.0-orange.svg?style=flat&colorB=3693DB)
+- [x] Import your code from PaintCodeKit
+- [x] Customizable images
+- [x] Clean code!
+- [x] Easy usage
+- [x] Supports iOS, developed in Swift 5
 
 ## Table of Contents
 
-- [Description](#description)
-- [Example](#example)
 - [Installation](#installation)
 - [Usage](#usage)
     - [Fill your UIImageView](#fillyouruiimageview)
@@ -21,19 +59,6 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## Description
-
-`PaintCodeKit` manage your converted images in [PaintCode](https://www.paintcodeapp.com). You will be able to use your images directly in the views using extensions with correct sizes. Use it to maintain your code clean!
-
-- [x] Import your code from PaintCodeKit
-- [x] Customizable images
-- [x] Clean code!
-- [x] Easy usage
-- [x] Supports iOS, developed in Swift 5
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
 
