@@ -194,9 +194,9 @@ PaintCodeKit is available under the MIT license. See the LICENSE file for more i
 
 # Other by @alberdev
 
-<img width="200" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/AnimatedField.png" alt="AnimatedField  Logo">
-<img width="200" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/ContentLoader.png" alt="ContentLoader  Logo">
-<img width="200" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/CiaoTransitions.png" alt="CiaoTransitions  Logo">
-<img width="200" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/DateScrollPicker.png" alt="DateScrollPicker  Logo">
-<img width="200" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/EmptyStateKit.png" alt="EmptyStateKit  Logo">
-<img width="200" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/GridTimerView.png" alt="GridTimerView  Logo">
+<img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/AnimatedField.png" alt="AnimatedField  Logo">
+<img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/ContentLoader.png" alt="ContentLoader  Logo">
+<img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/CiaoTransitions.png" alt="CiaoTransitions  Logo">
+<img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/DateScrollPicker.png" alt="DateScrollPicker  Logo">
+<img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/EmptyStateKit.png" alt="EmptyStateKit  Logo">
+<img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/GridTimerView.png" alt="GridTimerView  Logo">
