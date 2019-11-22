@@ -192,11 +192,11 @@ Alberto Aznar, info@alberdev.com
 
 PaintCodeKit is available under the MIT license. See the LICENSE file for more info.
 
-# Other by @alberdev
+## Other by @alberdev
 
-<img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/AnimatedField.png" alt="AnimatedField  Logo">
-<img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/ContentLoader.png" alt="ContentLoader  Logo">
-<img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/CiaoTransitions.png" alt="CiaoTransitions  Logo">
-<img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/DateScrollPicker.png" alt="DateScrollPicker  Logo">
-<img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/EmptyStateKit.png" alt="EmptyStateKit  Logo">
-<img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/GridTimerView.png" alt="GridTimerView  Logo">
+<a href="https://github.com/alberdev/AnimatedField"><img align="left" width="150" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/AnimatedField.png" alt="AnimatedField  Logo"></a>
+<a href="https://github.com/alberdev/ContentLoader"><img align="left" width="150" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/ContentLoader.png" alt="ContentLoader  Logo"></a>
+<a href="https://github.com/alberdev/CiaoTransitions"><img align="left" width="150" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/CiaoTransitions.png" alt="CiaoTransitions  Logo"></a>
+<a href="https://github.com/alberdev/DateScrollPicker"><img align="left" width="150" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/DateScrollPicker.png" alt="DateScrollPicker  Logo"></a>
+<a href="https://github.com/alberdev/EmptyStateKit"><img align="left" width="150" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/EmptyStateKit.png" alt="EmptyStateKit  Logo"></a>
+<a href="https://github.com/alberdev/GridTimerView"><img align="left" width="150" src="https://raw.githubusercontent.com/alberdev/PaintCodeKit/master/Images/Pods/GridTimerView.png" alt="GridTimerView  Logo"></a>
